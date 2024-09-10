@@ -1,11 +1,11 @@
 body {
     margin:0;
     background-color:rgb(209, 231, 231);
-    text-align:center
+    text-align:center;
+    font-family: "Playpen Sans", cursive;
 }
 
-#hero {
-    display:flex;
+.hero {
     flex-direction: column;
     justify-content: center;
     color:white;
@@ -16,4 +16,9 @@ body {
 }
 #groundhog-img {
     background-size:cover;
+}
+
+#header {
+    background-color:red;
+    display:inline-block;
 }
