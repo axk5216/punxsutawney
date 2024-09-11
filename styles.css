@@ -13,6 +13,7 @@ body {
   background-position: center;
   background-size: cover;
   height: 400px;
+  margin-bottom: 0;
 }
 
 #groundhog-img {
@@ -35,6 +36,21 @@ body {
   color: antiquewhite;
 }
 
-#info-container {
-  background-color: khaki;
+#container {
+  background-color: rgb(250, 247, 216);
+  color: rgb(17, 80, 122);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 60px;
+}
+
+#activity img {
+  border-radius: 50%;
 }
